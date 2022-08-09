@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-`define SIZE 1024
+`define SIZE 1024 //A KB
 
 module DataMemory(ReadData , Address , WriteData , MemoryRead , MemoryWrite , Clock);
     input [63:0]      WriteData;
